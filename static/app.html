@@ -38,54 +38,32 @@ if (isLoggedIn === 'correct') {
 <br>
 <body>
   <div id="particles-js"></div>
-  <div id="contextMenu" class="context-menu">
-    <div class="context-menu-item with-submenu" onclick="toggleSubmenu(event)"><i class="bi bi-backpack"></i> Tab Cloak</div>
-    <div class="context-submenu">
-      <div class="context-menu-item" onclick="tabCloak()">Enable</div>
-      <div class="context-menu-item" onclick="disableTabCloak()">Disable</div>
-    </div>
-    <div class="context-menu-item with-submenu" onclick="toggleSubmenu2(event)"><i class="bi bi-shield-lock"></i> Authentication</div>
-    <div class="context-submenu">
-      <div class="context-menu-item" onclick="enableLogin()">Enable Login</div>
-      <div class="context-menu-item" onclick="disableLogin()">Disable Login</div>
-    </div>
-    <div class="context-menu-item" onclick="openWindow()"><i class="bi bi-box-arrow-up-right"></i> About:Blank Cloak</div>
-    <div class="context-menu-item" onclick="openSettings()"><i class="bi bi-gear"></i> View all Settings</div>
-  </div>
-</div>
   <div style="padding-left:16px; text-align: center; color: white;margin:80px;z-index:1;">
     <div>
       <form method="POST" id="uform" autocomplete="off" style="z-index:1;">
-        <input type="text" name="url" class="form__input proxybar" id="name" tag="searchbar" style="font-family:poppins;font-size:20px;z-index:1;"
-          placeholder="Type URL or search query">
+        <input type="text" name="url" class="form__input proxybar" id="name" tag="searchbar" style="font-family:poppins; font-size:20px; z-index:1; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);"
+        placeholder="End Internet Censorship">
           <p class="randomText" id="placeholder"></p>
       </form>
     </div>
     <script>
 const options = [
-  "Time to go on Discord!",
+  "Viper v1 was first launched in 2021",
   "I hate school so much",
-  "Doge Unblocker is the best",
-  "V4 doesn't look much different from V3 to be honest",
-  "Check out the apps and games section!",
-  "Fun Fact: Australia is wider than the moon",
-  "Why are you here? Go study.",
-  "Right-Click to access more features",
-  "Fun Fact: You can set a custom background by going to settings.",
-  "We have spent and earned zero dollars from Doge Unblocker.",
-  "Tip: Tab Cloaking is highly recommended!",
-  "Did you know: A snail breathes through its foot",
-  "Fun Fact: 20% of Doge Unblocker was coded with ChatGPT",
-  "Join our Discord if you have any suggestions!",
-  "What is 9+10?",
-  "Tip: Enable authentication in settings.",
-  "Try our proxy on mobile!",
-  "Chromebooks are honestly L's",
-  "Fun Fact: Snakes can predict earthquakes",
+  "Viper is the best",
+  "V4 Is coming out soon fatties",
+  "Did You KnowAustralia is wider than the moon",
+  "Go touch grass fatties",
+  "I have spent 2 years on making viper and earned zero dollars from Viper",
+  "Tab Cloaking is highly recommended!",
+  "Viper v1 was just links",
+  "Try unblocked discord un chromebook",
+  "1+1 is mathematicaly proved to be 9",
+  "Imagine Being Fat",
+  "Cheese Is good",
   "Bigfoot is real!",
-  "You can customize Doge Unblocker by going to Settings > Themes",
-  "Did you know: Octopuses have 3 hearts",
-  "Did you pray today? Cause if you didn't-",
+  "Bease Churgurs",
+  "Is Mustafa dumb-",
 ];
 
 function getRandomOption() {
