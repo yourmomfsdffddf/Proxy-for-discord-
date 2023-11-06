@@ -351,7 +351,7 @@ if (selectedTheme === 'ocean') {
         },
         "retina_detect": true
     });
-    document.body.style.background = "linear-gradient(to right, rgb(0, 0, 0), rgb(223, 59, 10)";
+    document.body.style.background = "linear-gradient(to right, rgb(14, 132, 211), rgb(113, 11, 209)";
     document.body.style.backgroundAttachment = "fixed";
     document.body.style.height = "100%";
     document.body.style.backgroundPosition = "center";
