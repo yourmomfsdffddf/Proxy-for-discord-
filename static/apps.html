@@ -8,7 +8,6 @@
   <link rel="stylesheet" href="/assets/css/app.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" href="/assets/img/doge.jpg">
-  <link rel="stylesheet" href="/assets/css/rightclick.css">
   <link href="https://unpkg.com/movement.css/movement.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
   <style>
@@ -17,35 +16,10 @@
       margin: 20px;
     }
   </style>
-    <script src="/assets/js/functions.js"></script>
-  <script src="/assets/js/cloakcheck.js"></script>
-  <script src="/assets/js/mobile.js"></script>
-  <title>Doge | V4</title>
 </head>
 <br>
-<body>
-  <div id="particles-js"></div>
-  <div id="contextMenu" class="context-menu">
-    <div class="context-menu-item with-submenu" onclick="toggleSubmenu(event)"><i class="bi bi-backpack"></i> Tab Cloak</div>
-    <div class="context-submenu">
-      <div class="context-menu-item" onclick="tabCloak()">Enable</div>
-      <div class="context-menu-item" onclick="disableTabCloak()">Disable</div>
-    </div>
-    <div class="context-menu-item with-submenu" onclick="toggleSubmenu2(event)"><i class="bi bi-shield-lock"></i> Authentication</div>
-    <div class="context-submenu">
-      <div class="context-menu-item" onclick="enableLogin()">Enable Login</div>
-      <div class="context-menu-item" onclick="disableLogin()">Disable Login</div>
-    </div>
-    <div class="context-menu-item" onclick="openWindow()"><i class="bi bi-box-arrow-up-right"></i> About:Blank Cloak</div>
-    <div class="context-menu-item" onclick="openSettings()"><i class="bi bi-gear"></i> View all Settings</div>
-  </div>
-
-  <div class="search-bar" style="display: flex; justify-content: center;">
-    <form id="searchForm" onsubmit="return false;" autocomplete="off">
-      <input id="searchApps" placeholder="Search Apps" class="searchbar">
-    </form>
-  </div>
-
+<body class="bg">
+  
   <div class="search-results" style="display: flex; justify-content: center; flex-wrap: wrap;">
     <div id="searchMessage" style="display: none;color:white;text-align: center;font-size: 30px;margin:20px;font-family:poppins;"></div>
   
@@ -103,6 +77,5 @@
           })
         </script>
       <script rel="preload" src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-      <script src="/assets/js/particles.js"></script>
 </body>
 </html>
