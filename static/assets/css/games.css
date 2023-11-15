@@ -29,7 +29,7 @@
 }
 
 .square_btn:hover {
-    background: rgba(255, 255, 255, 0.144);
+    background: rgba(0, 200, 37, 0.632);
     color: white;
     border: solid 2px rgba(255, 255, 255, 0.26);
     border-radius: 5px;
